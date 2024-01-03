@@ -69,6 +69,12 @@ span {
   font-weight: 800;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: var(--neutral-black);
+  text-decoration: none;
+}
+
+.article-title:hover {
+  color: var(--primary-color);
 }
 
 .abstract {
