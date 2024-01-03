@@ -1,0 +1,67 @@
+#+TITLE: Frontend Mentor - Blog preview card solution
+#+AUTHOR: Ubirajara Neves
+#+DATE: Jan. 03, 2024
+
+This is a solution to the [[https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS][Blog preview card challenge on Frontend Mentor]]. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+* Table of contents :toc:
+- [[#overview][Overview]]
+  - [[#the-challenge][The challenge]]
+  - [[#screenshot][Screenshot]]
+  - [[#links][Links]]
+- [[#my-process][My process]]
+  - [[#built-with][Built with]]
+  - [[#what-i-learned][What I learned]]
+  - [[#continued-development][Continued development]]
+  - [[#useful-resources][Useful resources]]
+- [[#author][Author]]
+
+* Overview
+
+** The challenge
+Users should be able to:
+
+- See hover and focus states for all interactive elements on the page.
+
+** Screenshot
+[[./assets/images/Screenshot 2024-01-03 at 22.06.55.png]]
+
+** Links
+- Solution URL: [[https://github.com/biraneves/blog-preview-card]]
+- Live Site URL: [[https://biraneves.github.io/blog-preview-card/]]
+
+
+* My process
+
+** Built with
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+
+** What I learned
+For this project, I was able to apply a concept that I rarely used before: relative font sizes. It was fascinating to discover that one can achieve responsiveness without extensive use of media queries. In fact, I used only one:
+
+#+begin_src css
+  body {
+      font-size: 100%;
+  }
+
+  @media (max-width: 375px) {
+      body {
+          font-size: 80%;
+      }
+  }
+#+end_src
+
+** Continued development
+I intend to continue refining the code to accomplish two primary objectives: enhancing semantic clarity ant transforming it into a React page with reusable components.
+
+** Useful resources
+- [[https://www.w3schools.com/css/css_font_size.asp]] - This enhanced my understanding of the concept of relative font sizes and how to effectively apply it.
+
+* Author
+- Website - [[https://biraneves.github.io/pdud/][My blog]]
+- Frontend Mentor - [[https://www.frontendmentor.io/profile/biraneves][@biraneves]]
+
